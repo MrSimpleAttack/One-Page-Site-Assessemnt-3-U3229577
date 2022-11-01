@@ -1,0 +1,100 @@
+<DOCTYPE html>
+    <title>Black Summer Nightmare</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <audio loop id="audio" src="/assets/Fire.mp3"></audio>
+<html>
+
+    <head>
+        <div id="menu" class="menu">
+            <ul class="menuList">
+                <li id="m1"><img src="/assets/ParkC.png" onclick="setBlurbState(0)"></li>
+                <li id="m2"><img src="/assets/Coal.png" onclick="setBlurbState(1)"></li>
+                <li id="m3"><img src="/assets/KoalaC.png" onclick="setBlurbState(2)"></li>
+                <li id="m4"><img src="/assets/Cunt.png" onclick="setBlurbState(3)"></li>
+                <li id="m5"><img src="/assets/SC.png" onclick="setBlurbState(4)"></li>
+                <li id="m6"><img src="/assets/MMC.png" onclick="setBlurbState(5)"></li>
+                <li id="m7"><img src="/assets/ShopC.png" onclick="setBlurbState(6)"></li>
+                <li id="m8"><img src="/assets/FFC.png" onclick="setBlurbState(7)"></li>
+            </ul>
+        </div>
+    </head>
+
+    <body>
+        <div class="startButtonDiv" id="startButtonDiv">
+            <!--<button onclick="show_image('/assets/fire/Fire A.png', 100, 100, 'Fire A')">-->
+            <button class="startButton" onclick="play()">
+                <p>
+                    <strong style="font-size: 75px;">Warning!</strong>
+                    <p>The following information you are about to read is more than just natural disaster, it's political.<br>Click here if you wish to proceed</p>
+                </p>
+            </button>
+        </div>
+
+        <div class="randomFire" id="randomFire">
+            <canvas class="fireCanvas" id="fireCanvas">
+        </div>
+
+        <div class="blurbParent" id="blurbParent" onclick="setBlurbState(-1)">
+            <div class="blurb" id="blurb0">
+                <img src="/assets/BF.jpg">
+                <p>
+                    <strong>Land</strong>
+                    <span>From June 2019 until May 2020 Australia was suffering Black Summer. These were the worst recorded bushfires in all of Australia’s history. The cause of this is due to the global warming, the Earths average temperature has increased by 1 degree in the last century. These fires burned more than 46 million acres of land</span>
+                </p>
+            </div>
+            <div class="blurb" id="blurb1">
+                <img src="/assets/PMCL.png">
+                <p>
+                    <strong>Global Warming</strong>
+                    <span>Unfortunately, prior to these fires and during we were under a Morrison government. Even before he was Prime Minister he was been every outspoken with mining coal, even bringing it into the chamber to be used as a prop. With his remarks about mining, he mentions how it has no correlation to global warming.</span>
+                </p>
+            </div>
+            <div class="blurb" id="blurb2">
+                <img src="/assets/KS.jpg">
+                <p>
+                    <strong>Wildlife</strong>
+                    <span>Sadly over 3 billion animals lost their lives during these fires, including many injured. The koala is now an endangered species due to the lives lost.</span>
+                </p>
+            </div>
+            <div class="blurb" id="blurb3">
+                <img src="/assets/Dickhead.png">
+                <p>
+                    <strong>Hawaii</strong>
+                    <span>The then Prime minister of Australia Scott Morrison decided to go vacation in Hawaii during the peak of the fires effecting homes in Australia. Showing a very out of touch politician. Once returning from his holiday the Australian people proceeded to slam his name due to his actions. He proceeded to take stage spouting lies about the bushfires and refusing to admit that global warming was involved.</span>
+                </p>
+            </div>
+            <div class="blurb" id="blurb4">
+                <img src="/assets/US.jpg">
+                <p>
+                    <strong>Smoke</strong>
+                    <span>The amount of smoke that these fires caused was enough to cover the whole size of Europe. Due to the smoke, storms clouds formed. This created massive storms and wilds inside the fires, but also to Australia’s neighbor New Zealand.</span>
+                </p>
+            </div>
+            <div class="blurb" id="blurb5">
+                <img src="/assets/RM.jpg">
+                <p>
+                    <strong>Murdoch Media</strong>
+                    <span>It’s relatively well known that Australia’s news cycle is controlled by Rupert Murdoch Media, as he is extremely right leaning all his news stations reflect this by spouting falsehoods of climate change and global warming. Stating that they don’t exist.</span>
+                </p>
+            </div>
+            <div class="blurb" id="blurb6">
+                <img src="/assets/MCB.jpg">
+                <p>
+                    <strong>Mike Cannon-Brookes</strong>
+                    <span>Due to the devastation of the fires, Mike Cannon-Brookes one of Australia’s richest billionaires. Has started and funded a project for Australia to have one of the biggest renewable energy sources in the world, using the power of Solar, Wind and Water.</span>
+                </p>
+            </div>
+            <div class="blurb" id="blurb7">
+                <img src="/assets/PP.jpg">
+                <p>
+                    <strong>Firefighters</strong>
+                    <span>The fires were so deadly that unfortunately some of the brave firefighters who were protecting the public died. In one such case an 8-ton fire truck was picked up by the wind, slamming back into the ground killing 1 firefighter.</span>
+                </p>
+            </div>
+        </div>
+        
+
+    </body>
+
+</html>

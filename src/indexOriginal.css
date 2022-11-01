@@ -1,0 +1,107 @@
+body {
+    width: auto;
+    height: auto;
+    background-image: url(/assets/aus.png);
+    background-size: 55%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color : 0b0a32;
+  }
+
+.startButtonDiv {
+  margin-top: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.startButton {
+    position: fixed;
+    right: 100px;
+    left: 100px;
+    padding: 15px 25px;
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #d80000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.startButton:hover {
+  background-color: #660000
+}
+
+.startButton:active {
+  background-color: #220000;
+  box-shadow: 0 5px rgb(0, 0, 0);
+  transform: translateY(4px);
+}
+  
+.menu {
+  display: none;
+  position: fixed;
+  left: 1vw;
+  top: 1vh;
+}
+
+.menuList {
+  list-style-type: none;
+}
+
+.menuList>li>img {
+  padding-bottom: 12px;
+  width: 4vw;
+  height: 4vw;
+}
+
+.menuList>li>img:hover {
+  padding-left: 1vw;
+  padding-bottom: 12px;
+  width: 5vw;
+  height: 5vw;
+}
+
+.randomFire {
+  height: 95vh;
+  width: 95vw;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  display: none;
+}
+
+.fireCanvas {
+  margin: auto;
+  width: 50vw;
+  height: 25vh;
+}
+
+.blurb {
+  display: none;
+  margin: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 45vw;
+  height: auto;
+  background-color: #9393938c;
+}
+
+.blurbParent {
+  display: none;
+  margin: auto;
+  justify-content: center;
+  width: 95vw;
+  height: 95vh;
+}
+
+.blurbTitle {
+  display: block;
+}
+
+.blurbBody {
+  display: block;
+}
